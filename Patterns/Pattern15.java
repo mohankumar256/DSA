@@ -1,21 +1,29 @@
 import java.util.*;
 
-public class Main {
+public class Pattern15 {
 	public static void pattern(int n) {
-		int nst = 1, nsp = n / 2;
+		int nst = 1, nsp = n / 2, count = 1;
 		for (int r = 1; r <= n; r++) {
-			for (int csp = 0; csp < nsp; csp++)
+			for (int csp = 1; csp <= nsp; csp++)
 				System.out.print("\t");
 
-			for (int cst = 0; cst < nst; cst++)
-				System.out.print("*\t");
-				
+			int temp = count;
+			for (int cst = 1; cst <= nst; cst++) {
+				System.out.print(temp + "\t");
+				if (cst <= nst / 2)
+					temp++;
+				else
+					temp--;
+			}
+
 			if (r <= n / 2) {
 				nsp--;
 				nst += 2;
+				count++;
 			} else {
 				nsp++;
 				nst -= 2;
+				count--;
 			}
 			System.out.println();
 		}
