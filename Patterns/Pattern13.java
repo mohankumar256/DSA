@@ -6,7 +6,7 @@ public class Pattern13 {
 			int val = 1;
 			for (int c = 0; c <= r; c++) {
 				System.out.print(val + "\t");
-				val = ((val * (r - c)) / (c + 1));
+				val = ((val * (r - c)) / (c + 1)); //next value calculation
 			}
 			System.out.println();
 		}
