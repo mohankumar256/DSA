@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Pattern8_1 {
 	public static void pattern(int n) {

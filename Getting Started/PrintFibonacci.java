@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class PrintFibonacci {
 	public static void printFibonacci(int n) {

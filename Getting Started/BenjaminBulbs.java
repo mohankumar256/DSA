@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class BenjaminBulbs {
 	public static void benjaminBulbs(int num) {

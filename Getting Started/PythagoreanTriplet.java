@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class PythagoreanTriplet {
 	public static void pythagoreanTriplet(int a, int b, int c) {

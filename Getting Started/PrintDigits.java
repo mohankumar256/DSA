@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class PrintDigits {
 	public static int countDigit(int num) {

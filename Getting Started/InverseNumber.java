@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class InverseNumber {
 	public static void inverseOfNumber(int num) {

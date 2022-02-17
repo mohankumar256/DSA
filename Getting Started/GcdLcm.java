@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class GcdLcm {
 	public static int gcdCalculator(int num1, int num2) {
