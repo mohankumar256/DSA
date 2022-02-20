@@ -15,7 +15,7 @@ public class AnyBaseAddition {
 	public static int getSum(int b, int n1, int n2) {
 		int carry = 0, ans = 0, pwr = 1;
 		while (n1 != 0 || n2 != 0 || carry != 0) {
-			int sum = n1 % 10 + n2 % 10 + carry;
+			int sum = n1 % 10 + n2 % 10 + carry; //sum calculation
 
 			n1 /= 10;
 			n2 /= 10;
