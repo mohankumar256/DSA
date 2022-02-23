@@ -1,7 +1,6 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
+public class TwoDimensionalArray {
 
 	public static void main(String[] args) throws Exception {
 		Scanner scn = new Scanner(System.in);
