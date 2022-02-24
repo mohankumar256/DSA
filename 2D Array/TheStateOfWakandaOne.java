@@ -13,7 +13,6 @@ public class TheStateOfWakandaOne {
 				for (int i = row - 1; i >= 0; i--)
 					System.out.println(arr[i][j]);
 	}
-
 	public static void main(String[] args) throws Exception {
 		Scanner scn = new Scanner(System.in);
 
@@ -28,5 +27,4 @@ public class TheStateOfWakandaOne {
 
 		wakanda(arr);
 	}
-
 }
